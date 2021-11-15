@@ -1,0 +1,16 @@
+gpu_id: 0
+multi_gpus: False
+seed: 0
+
+train:
+  pretrained_path: "results/CFO/ckpt/model.pt"
+  learning_rate: 0.00009
+  minimum_learning_rate: 0.000005
+  decay: 0.99
+  batch_size: 64
+  max_epochs: 120
+
+dataset:
+  name: 'CFO'
+  data_dir: 'data'
+  save_dir: 'results/'
