@@ -1,0 +1,8 @@
+easydict
+h5py
+tqdm
+termcolor
+pyyaml
+psutil
+tensorboard
+tensorboardX
