@@ -256,10 +256,8 @@ if __name__ == '__main__':
 
     # annotation files
     if args.dataset == 'CFO':
-        # args.annotation_file = './data/dataset/CFO/info.json'
-        # args.dataset_dir = './data/dataset/CFO/'
-        args.annotation_file = 'E:/数据集/G_17251-G_20670/info.json'
-        args.dataset_dir = 'E:/数据集/G_17251-G_20670/'
+        args.annotation_file = './data/dataset/CFO/info.json'
+        args.dataset_dir = './data/dataset/CFO/'
         video_paths = load_file_paths(args)
         random.shuffle(video_paths)
         # load model
